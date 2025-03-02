@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+}
+
+#wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+#sign{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#text1{
+    font-size: 100px;
+    background: rgb(193,89,210);
+    background: linear-gradient(0deg, rgba(193,89,210,1) 0%, rgba(143,0,255,1) 100%); 
+    color: transparent;
+    background-clip: text;
+}
+
+#text2{
+    font-size: 40px;
+    margin-top: -40px;
+    background: rgb(193,89,210);
+    background: linear-gradient(0deg, rgba(193,89,210,1) 0%, rgba(143,0,255,1) 100%);
+    color: transparent;
+    background-clip: text;
+}
+
+#button{
+    width: 400px;
+    border-radius: 35px;
+    outline-color: rgb(193,89,210);
+    outline-width: thick;
+    outline-style: solid;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 1s ease-out;
+}
+
+#button:hover{
+    transform: scale(1.2);
+    transition: all 1s ease-out;
+}
+
+#text3{
+    font-size: 40px;
+    background: rgb(193,89,210);
+    background: linear-gradient(0deg, rgba(193,89,210,1) 0%, rgba(143,0,255,1) 100%);
+    color: transparent;
+    background-clip: text;
+}
