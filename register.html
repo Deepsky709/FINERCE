@@ -4,18 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
-<body>
+<body onload="intro2()">
     <div id="wrap">
-        <div id="sign">
+        <div id="sign" class="m2">
             <h1 id="text1">Fill in The Form</h1>
             <h1 id="text2">We Would Like to Know You Better</h1>
-            <div id="button" onclick="start()">
-                <h1 id="text3">Start Registering</h1>
+            <h1 id="text4">What is your budget every month?</h1>
+            <input id="input" name="budget" class="budget">
+            <h1 id="text4">What is your annual revenue?</h1>
+            <input id="input" name="income" class="income">
+            <h1 id="text4">What is your target?</h1>
+            <input id="input" name="goal" class="goal">
+            <div id="button" onclick="submit()">
+                <h1 id="text3">Submit</h1>
             </div>
         </div>
     </div>
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 </body>
 </html>

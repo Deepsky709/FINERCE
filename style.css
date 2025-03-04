@@ -2,9 +2,17 @@ body{
     background-color: black;
 }
 
+.m1{
+    margin-top: 200px;
+}
+
+.m2{
+    margin-top: 75px;
+}
+
 #wrap{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     background-color: black;
@@ -16,9 +24,6 @@ body{
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 200px;
-    flex-wrap: wrap;
-    display: flex;
     flex-direction: column;
     text-align: center;
 }
@@ -29,6 +34,7 @@ body{
     background: linear-gradient(0deg, rgba(193,89,210,1) 0%, rgba(143,0,255,1) 100%); 
     color: transparent;
     background-clip: text;
+    font-family: "Inconsolata", monospace;
 }
 
 #text2{
@@ -38,6 +44,7 @@ body{
     background: linear-gradient(0deg, rgba(193,89,210,1) 0%, rgba(143,0,255,1) 100%);
     color: transparent;
     background-clip: text;
+    font-family: "Inconsolata", monospace;
 }
 
 #button{
@@ -50,6 +57,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     transition: all 1s ease-out;
+    font-family: "Inconsolata", monospace;
 }
 
 #button:hover{
@@ -63,4 +71,279 @@ body{
     background: linear-gradient(0deg, rgba(193,89,210,1) 0%, rgba(143,0,255,1) 100%);
     color: transparent;
     background-clip: text;
+    font-family: "Inconsolata", monospace;
+}
+
+#text4{
+    font-size: 30px;
+    background: rgb(193,89,210);
+    background: linear-gradient(0deg, rgba(193,89,210,1) 0%, rgba(143,0,255,1) 100%);
+    color: transparent;
+    background-clip: text;
+    font-family: "Inconsolata", monospace;
+}
+
+#text5{
+    font-size: 50px;
+    background: rgb(193,89,210);
+    background: linear-gradient(0deg, rgba(193,89,210,1) 0%, rgba(143,0,255,1) 100%);
+    color: transparent;
+    background-clip: text;
+    font-family: "Inconsolata", monospace;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+#text6{
+    font-size: 32px;
+    background: rgb(193,89,210);
+    background: linear-gradient(0deg, rgba(193,89,210,1) 0%, rgba(143,0,255,1) 100%);
+    color: transparent;
+    background-clip: text;
+    font-family: "Inconsolata", monospace;
+    margin-left: 10px;
+}
+
+#text7{
+    font-size: 65px;
+    background: rgb(193,89,210);
+    background: linear-gradient(0deg, rgba(193,89,210,1) 0%, rgba(143,0,255,1) 100%);
+    color: transparent;
+    background-clip: text;
+    font-family: "Inconsolata", monospace;
+    margin-top: 60px;
+}
+
+#money{
+    font-size: 50px;
+    background: rgb(193,89,210);
+    background: linear-gradient(0deg, rgba(193,89,210,1) 0%, rgba(143,0,255,1) 100%);
+    color: transparent;
+    background-clip: text;
+    font-family: "Inconsolata", monospace;
+    margin-top: -40px;
+}
+
+#input{
+    height: 50px;
+    width: 400px;
+    background: black;
+    outline-color: rgb(193,89,210);
+    outline-width: thick;
+    outline-style: solid;
+    color: rgb(193,89,210);
+    font-size: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Inconsolata", monospace;
+}
+
+#dash{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: left;
+    width: 400px;
+}
+
+#icon{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 35px;
+    height: 150px;
+    justify-content: center;
+}
+
+#image{
+    height: 60px;
+    margin-top: 40px;
+}
+
+#image2{
+    height: 35px;
+    margin-top: 20px;
+}
+
+#tab{
+    height: auto;
+    width: auto;
+    text-align: center;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    outline-color: rgb(193,89,210);
+    outline-style: solid;
+    outline-width: thick; 
+    border-radius: 50px 0px 0px 50px;
+    margin-bottom: 5px;
+}
+
+#board{
+    width: 1790px;
+    height: 500px;
+}
+
+#balance{
+    height: 250px;
+    width: 500px;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 30px;
+    outline-color: rgb(193,89,210);
+    outline-style: solid;
+    outline-width: thick;
+}
+
+#row1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#exchange{
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 500px;
+    height: 400px;
+    padding: 30px;
+    border-radius: 30px 30px 0px 0px;
+    outline-color: rgb(193,89,210);
+    outline-style: solid;
+    outline-width: thick;
+    overflow: scroll;
+}
+
+#rate{
+    width: auto;
+    flex-direction: row;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#name{
+    font-size: 40px;
+    background: rgb(193,89,210);
+    background: linear-gradient(0deg, rgba(193,89,210,1) 0%, rgba(143,0,255,1) 100%);
+    color: transparent;
+    background-clip: text;
+    font-family: "Inconsolata", monospace;
+    width: 300px;
+}
+
+#cash{
+    font-size: 40px;
+    background: rgb(193,89,210);
+    background: linear-gradient(0deg, rgba(193,89,210,1) 0%, rgba(143,0,255,1) 100%);
+    color: transparent;
+    background-clip: text;
+    font-family: "Inconsolata", monospace;
+    width: 300px;
+    text-align: right;
+}
+
+#col{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#name2{
+    font-size: 32px;
+    margin-right: auto;
+    height: 35px;
+    width: 250px;
+    background: rgb(193,89,210);
+    background: linear-gradient(0deg, rgba(193,89,210,1) 0%, rgba(143,0,255,1) 100%);
+    color: transparent;
+    background-clip: text;
+    background-color: black;
+    border-radius: 0px 0px 0px 30px;
+    text-align: center;
+}
+
+#try{
+    margin-left: 30px;
+    margin-right: auto;
+    margin-top: 5px;
+    border-radius: 0px 0px 30px 30px;
+    outline-color: rgb(193,89,210);
+    outline-style: solid;
+    outline-width: thick;
+    flex-direction: row;
+    display: flex;
+    width: 560px;
+}
+
+#purchase{
+    font-size: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35px;
+    width: 250px;
+    background: rgb(193,89,210);
+    background: linear-gradient(0deg, rgba(193,89,210,1) 0%, rgba(143,0,255,1) 100%);
+    color: transparent;
+    background-clip: text;
+    background-color: black;
+    text-align: center;
+}
+
+#button2{
+    width: 40px;
+    height: 40px;
+    border-radius: 0px 0px 30px 0px;
+    outline-color: rgb(193,89,210);
+    outline-width: thick;
+    outline-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Inconsolata", monospace;
+    background: rgb(193,89,210);
+    background: linear-gradient(0deg, rgba(193,89,210,1) 0%, rgba(143,0,255,1) 100%);
+    color: transparent;
+    background-clip: text;
+    font-size: 35px;
+    text-align: center;
+}
+
+#stat{
+    height: 600px;
+    width: 1120px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: auto;
+    border-radius: 30px;
+    outline-color: rgb(193,89,210);
+    outline-width: thick;
+    outline-style: solid;
+    display: flex;
+    flex-direction: row;
+}
+
+#spec{
+    font-size: 35px;
+    background: rgb(193,89,210);
+    background: linear-gradient(0deg, rgba(193,89,210,1) 0%, rgba(143,0,255,1) 100%);
+    color: transparent;
+    background-clip: text;
+    font-family: "Inconsolata", monospace;
+    margin-right: 20px;
+    margin-bottom: -5px;
+    margin-top: 20px;
+}
+
+#percent{
+    background-color: white;
+    height: 600px;
+    width: 200px;
+    border-radius: 30px 0px 0px 30px;
+    outline-color: rgb(193,89,210);
+    outline-width: thick;
+    outline-style: solid;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
 }
