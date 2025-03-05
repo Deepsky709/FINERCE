@@ -335,10 +335,20 @@ body{
     margin-top: 20px;
 }
 
+#spec2{
+    font-size: 25px;
+    background: rgb(193,89,210);
+    background: linear-gradient(0deg, rgba(193,89,210,1) 0%, rgba(143,0,255,1) 100%);
+    color: transparent;
+    background-clip: text;
+    font-family: "Inconsolata", monospace;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
 #percent{
-    background-color: white;
     height: 600px;
-    width: 200px;
+    width: 150px;
     border-radius: 30px 0px 0px 30px;
     outline-color: rgb(193,89,210);
     outline-width: thick;
@@ -346,4 +356,43 @@ body{
     display: flex;
     flex-direction: column;
     text-align: right;
+}
+
+#data{
+    height: 600px;
+    width: 970px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 30px 30px 0px;
+}
+
+#high{
+    height: 540px;
+    border-radius: 0px 30px 0px 0px;
+    display: flex;
+}
+
+#week{
+    height: 60px;
+    border-radius: 0px 0px 30px 0px;
+    display: flex;
+    flex-direction: row;
+    outline-color: rgb(193,89,210);
+    outline-width: thick;
+    outline-style: solid;
+    margin-left: 5px;
+}
+
+#chart{
+    height: 50px;
+    width: 125px;
+    background-color: wheat;
+    margin-left: 77px;
+    margin-top: 490px;
+    margin-right: 20px;
+    transition: height 4s;
+}
+
+#chart:hover{
+    height: 500px;
 }
